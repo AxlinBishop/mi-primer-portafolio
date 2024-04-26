@@ -1,0 +1,10 @@
+@import "../abstracts/variables";
+
+.btn{
+    background-color: map-get($colores-morado, '10');
+    color: map-get($colores-morado, '1');
+    &:hover{
+        background-color: map-get($colores-morado, '7');
+        color: map-get($colores-morado, '2');
+    }
+}

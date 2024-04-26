@@ -1,0 +1,28 @@
+@import '../abstracts/variables'; /* NO SIRVE USAR USE */
+
+/* Reset de estilo */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Generales */
+.max-width{
+    max-width: 1200px;
+    margin: auto;
+}
+
+body{
+    background-color: map-get($colores-morado, '2');
+    color: map-get($colores-morado, '11');
+}
+section{
+    padding: 2rem;
+}
+h2{
+    padding-bottom: 2rem 0;
+    text-align: center;
+}

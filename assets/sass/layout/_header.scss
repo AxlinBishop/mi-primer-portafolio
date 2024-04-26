@@ -1,0 +1,11 @@
+@import '../abstracts/variables';
+
+.navbar{
+    background-color: map-get($colores-morado, "11" );
+}
+header{
+    margin-bottom: 7rem;/* para que la sección de abajo no quede por debajo del fixed-top */
+}
+.navbar-brand{
+    font-size: 3rem;
+}
